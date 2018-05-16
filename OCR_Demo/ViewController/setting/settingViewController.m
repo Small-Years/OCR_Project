@@ -88,14 +88,13 @@
     [upBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     [upBtn addTarget:self action:@selector(buildUpView) forControlEvents:UIControlEventTouchUpInside];
     upBtn.titleLabel.font = [UIFont systemFontOfSize:19];
+
     
-//    NSArray *arr1 = @[@"主题(未开通)",@"清除缓存"];
-//
     NSArray *arr1 = @[@"硬扫描",@"联网扫描"];
-//    NSArray *arr2 = @[@"扫描次数"];
+    NSArray *arr2 = @[@"扫描次数"];
     NSArray *arr3 = @[@"显示标题",@"声音",@"反馈",@"为我们评分",@"更多作品"];//@"提示",
     [self.dataArr addObject:arr1];
-//    [self.dataArr addObject:arr2];
+    [self.dataArr addObject:arr2];
     [self.dataArr addObject:arr3];
     
     mainTable = [[UITableView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(headView.frame), SCREEN_WIDTH, SCREEN_HEIGHT- CGRectGetMaxY(headView.frame))];
@@ -258,16 +257,16 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }
-//    else if(indexPath.section == 1){
-//        NSString *cellID = @"twoCellID";
-//        ShowTimesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
-//        if (cell == nil) {
-//            cell = [[ShowTimesTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
-//        }
-//        cell.delegate = self;
-//        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-//        return cell;
-//    }
+    else if(indexPath.section == 1){
+        NSString *cellID = @"twoCellID";
+        ShowTimesTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+        if (cell == nil) {
+            cell = [[ShowTimesTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+        }
+        cell.delegate = self;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        return cell;
+    }
     else{
         if (indexPath.row == 0 || indexPath.row == 1) {
             NSString *cellID = @"switchCellID";
@@ -344,18 +343,18 @@
     if (indexPath.section == 0) {
         return 72;
     }
-//    else if(indexPath.section == 1){
-//        return 200;
-//    }
+    else if(indexPath.section == 1){
+        return 200;
+    }
     return 50;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     if (section == 0) {
         return 40;
     }
-//    else if (section == 1){
-//        return 0;
-//    }
+    else if (section == 1){
+        return 0;
+    }
     else{
         return 25;
     }
