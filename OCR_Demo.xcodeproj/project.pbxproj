@@ -65,6 +65,23 @@
 		C79BDE4C205A58C5006F497A /* AllMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C79BDE4B205A58C5006F497A /* AllMethod.m */; };
 		C79BDE50205A5EFE006F497A /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79BDE4F205A5EFE006F497A /* ScanView.m */; };
 		C7A8218B20AAD848005D00D6 /* didi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7A8218A20AAD848005D00D6 /* didi.mp3 */; };
+		C7C33CB420AC33F10011CE3A /* DydAdSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CB020AC33F10011CE3A /* DydAdSdk.a */; };
+		C7C33CB520AC33F10011CE3A /* DydAdSdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7C33CB320AC33F10011CE3A /* DydAdSdk.bundle */; };
+		C7C33CB720AC345A0011CE3A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CB620AC34590011CE3A /* AdSupport.framework */; };
+		C7C33CB920AC34640011CE3A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CB820AC34640011CE3A /* AudioToolbox.framework */; };
+		C7C33CBB20AC346A0011CE3A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CBA20AC346A0011CE3A /* AVFoundation.framework */; };
+		C7C33CBD20AC34730011CE3A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CBC20AC34730011CE3A /* CFNetwork.framework */; };
+		C7C33CBF20AC34800011CE3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CBE20AC34800011CE3A /* CoreGraphics.framework */; };
+		C7C33CC120AC348A0011CE3A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CC020AC348A0011CE3A /* CoreMedia.framework */; };
+		C7C33CC320AC34930011CE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CC220AC34920011CE3A /* Foundation.framework */; };
+		C7C33CC520AC34B90011CE3A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CC420AC34B90011CE3A /* MediaPlayer.framework */; };
+		C7C33CC720AC34C00011CE3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CC620AC34C00011CE3A /* QuartzCore.framework */; };
+		C7C33CC920AC34CA0011CE3A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CC820AC34CA0011CE3A /* StoreKit.framework */; };
+		C7C33CCB20AC34D70011CE3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CCA20AC34D70011CE3A /* UIKit.framework */; };
+		C7C33CCD20AC34E60011CE3A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CCC20AC34E60011CE3A /* WebKit.framework */; };
+		C7C33CCF20AC34FC0011CE3A /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CCE20AC34FC0011CE3A /* libc++abi.tbd */; };
+		C7C33CD120AC35050011CE3A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C33CD020AC35050011CE3A /* JavaScriptCore.framework */; };
+		C7C33CD420AC367C0011CE3A /* SeeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C33CD320AC367C0011CE3A /* SeeAdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +220,26 @@
 		C79BDE4F205A5EFE006F497A /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
 		C7A5ADE12051205F002ECA49 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C7A8218A20AAD848005D00D6 /* didi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = didi.mp3; sourceTree = "<group>"; };
+		C7C33CB020AC33F10011CE3A /* DydAdSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = DydAdSdk.a; sourceTree = "<group>"; };
+		C7C33CB120AC33F10011CE3A /* DydAdSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DydAdSdk.h; sourceTree = "<group>"; };
+		C7C33CB220AC33F10011CE3A /* DydViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DydViewInfo.h; sourceTree = "<group>"; };
+		C7C33CB320AC33F10011CE3A /* DydAdSdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DydAdSdk.bundle; sourceTree = "<group>"; };
+		C7C33CB620AC34590011CE3A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C7C33CB820AC34640011CE3A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7C33CBA20AC346A0011CE3A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7C33CBC20AC34730011CE3A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C7C33CBE20AC34800011CE3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7C33CC020AC348A0011CE3A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C7C33CC220AC34920011CE3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7C33CC420AC34B90011CE3A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C7C33CC620AC34C00011CE3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7C33CC820AC34CA0011CE3A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C7C33CCA20AC34D70011CE3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7C33CCC20AC34E60011CE3A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C7C33CCE20AC34FC0011CE3A /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		C7C33CD020AC35050011CE3A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C7C33CD220AC367C0011CE3A /* SeeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeeAdViewController.h; sourceTree = "<group>"; };
+		C7C33CD320AC367C0011CE3A /* SeeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeeAdViewController.m; sourceTree = "<group>"; };
 		CAA5DD802A770B096C110108 /* Pods-OCR_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCR_Demo/Pods-OCR_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D7ECAA40AC1B407B756E2FFD /* libPods-OCR_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCR_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -212,15 +249,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C755D59C20634ED60010B5F8 /* CoreLocation.framework in Frameworks */,
 				C755D59A20634ECB0010B5F8 /* CoreTelephony.framework in Frameworks */,
-				C755D59820634EBD0010B5F8 /* MobileCoreServices.framework in Frameworks */,
+				C7C33CD120AC35050011CE3A /* JavaScriptCore.framework in Frameworks */,
+				C7C33CCF20AC34FC0011CE3A /* libc++abi.tbd in Frameworks */,
+				C7C33CCD20AC34E60011CE3A /* WebKit.framework in Frameworks */,
+				C7C33CCB20AC34D70011CE3A /* UIKit.framework in Frameworks */,
 				C755D59620634EB40010B5F8 /* SystemConfiguration.framework in Frameworks */,
+				C7C33CC920AC34CA0011CE3A /* StoreKit.framework in Frameworks */,
+				C7C33CC720AC34C00011CE3A /* QuartzCore.framework in Frameworks */,
+				C7C33CC520AC34B90011CE3A /* MediaPlayer.framework in Frameworks */,
+				C755D58E20634E790010B5F8 /* libz.tbd in Frameworks */,
+				C7C33CC320AC34930011CE3A /* Foundation.framework in Frameworks */,
+				C7C33CC120AC348A0011CE3A /* CoreMedia.framework in Frameworks */,
+				C7C33CBF20AC34800011CE3A /* CoreGraphics.framework in Frameworks */,
+				C7C33CBD20AC34730011CE3A /* CFNetwork.framework in Frameworks */,
+				C7C33CBB20AC346A0011CE3A /* AVFoundation.framework in Frameworks */,
+				C7C33CB920AC34640011CE3A /* AudioToolbox.framework in Frameworks */,
+				C7C33CB720AC345A0011CE3A /* AdSupport.framework in Frameworks */,
+				C755D59C20634ED60010B5F8 /* CoreLocation.framework in Frameworks */,
+				C755D59820634EBD0010B5F8 /* MobileCoreServices.framework in Frameworks */,
 				C755D59420634EAD0010B5F8 /* libsqlite3.tbd in Frameworks */,
 				C755D59220634EA40010B5F8 /* libicucore.tbd in Frameworks */,
 				C755D59020634E920010B5F8 /* libc++.tbd in Frameworks */,
-				C755D58E20634E790010B5F8 /* libz.tbd in Frameworks */,
 				C796B974205F4F4A00125FEE /* AipBase.framework in Frameworks */,
+				C7C33CB420AC33F10011CE3A /* DydAdSdk.a in Frameworks */,
 				066555FC4FE0D5D31A865995 /* libPods-OCR_Demo.a in Frameworks */,
 				C796B976205F4F4A00125FEE /* IdcardQuality.framework in Frameworks */,
 				C796B978205F4F4A00125FEE /* AipOcrSdk.framework in Frameworks */,
@@ -247,6 +299,20 @@
 		B05ECECBBF4AEC02BA930F46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7C33CD020AC35050011CE3A /* JavaScriptCore.framework */,
+				C7C33CCE20AC34FC0011CE3A /* libc++abi.tbd */,
+				C7C33CCC20AC34E60011CE3A /* WebKit.framework */,
+				C7C33CCA20AC34D70011CE3A /* UIKit.framework */,
+				C7C33CC820AC34CA0011CE3A /* StoreKit.framework */,
+				C7C33CC620AC34C00011CE3A /* QuartzCore.framework */,
+				C7C33CC420AC34B90011CE3A /* MediaPlayer.framework */,
+				C7C33CC220AC34920011CE3A /* Foundation.framework */,
+				C7C33CC020AC348A0011CE3A /* CoreMedia.framework */,
+				C7C33CBE20AC34800011CE3A /* CoreGraphics.framework */,
+				C7C33CBC20AC34730011CE3A /* CFNetwork.framework */,
+				C7C33CBA20AC346A0011CE3A /* AVFoundation.framework */,
+				C7C33CB820AC34640011CE3A /* AudioToolbox.framework */,
+				C7C33CB620AC34590011CE3A /* AdSupport.framework */,
 				C755D59B20634ED50010B5F8 /* CoreLocation.framework */,
 				C755D59920634ECB0010B5F8 /* CoreTelephony.framework */,
 				C755D59720634EBD0010B5F8 /* MobileCoreServices.framework */,
@@ -267,6 +333,8 @@
 				C796B982205F60E600125FEE /* settingViewController.m */,
 				C73932482063411A00318637 /* sendMessageViewController.h */,
 				C73932472063411A00318637 /* sendMessageViewController.m */,
+				C7C33CD220AC367C0011CE3A /* SeeAdViewController.h */,
+				C7C33CD320AC367C0011CE3A /* SeeAdViewController.m */,
 			);
 			path = setting;
 			sourceTree = "<group>";
@@ -435,6 +503,7 @@
 		C79BDE2F205A5657006F497A /* pod */ = {
 			isa = PBXGroup;
 			children = (
+				C7C33CAF20AC33F10011CE3A /* DYDSDK */,
 				C7873D9920625FDE008EBA2D /* NSAttributedString_Encapsulation.h */,
 				C7873D9A20625FDE008EBA2D /* NSAttributedString_Encapsulation.m */,
 				C7873D5D2061FD87008EBA2D /* Masonry */,
@@ -463,6 +532,17 @@
 				C79BDE45205A58BA006F497A /* UIImage+SubImage.m */,
 			);
 			path = "UIImage分类";
+			sourceTree = "<group>";
+		};
+		C7C33CAF20AC33F10011CE3A /* DYDSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C7C33CB020AC33F10011CE3A /* DydAdSdk.a */,
+				C7C33CB120AC33F10011CE3A /* DydAdSdk.h */,
+				C7C33CB220AC33F10011CE3A /* DydViewInfo.h */,
+				C7C33CB320AC33F10011CE3A /* DydAdSdk.bundle */,
+			);
+			path = DYDSDK;
 			sourceTree = "<group>";
 		};
 		D7AFCAF31EFE8DC90F88F092 /* Pods */ = {
@@ -591,6 +671,7 @@
 				C74FE9172050D84800BFCF0D /* Assets.xcassets in Resources */,
 				C7873D912061FD87008EBA2D /* readMe.rtf in Resources */,
 				C74FE9152050D84800BFCF0D /* Main.storyboard in Resources */,
+				C7C33CB520AC33F10011CE3A /* DydAdSdk.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +772,7 @@
 				C79BDE3B205A58B3006F497A /* UIView+Extension.m in Sources */,
 				C7873D872061FD87008EBA2D /* MASLayoutConstraint.m in Sources */,
 				C7159D4420A2F94D00B32B01 /* CameraViewController.m in Sources */,
+				C7C33CD420AC367C0011CE3A /* SeeAdViewController.m in Sources */,
 				C79BDE48205A58BA006F497A /* UIImage+Rotate.m in Sources */,
 				C7873D902061FD87008EBA2D /* ViewController+MASAdditions.m in Sources */,
 				C7873D8B2061FD87008EBA2D /* NSArray+Sudoku.m in Sources */,
@@ -874,6 +956,54 @@
 				INFOPLIST_FILE = OCR_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR_Demo/pod/DYDSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak_library",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"AFNetworking\"",
+					"-l\"AVOSCloud\"",
+					"-l\"AVOSCloudIM\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Shimmer\"",
+					"-l\"TesseractOCRiOS\"",
+					"-l\"WSProgressHUD\"",
+					"-l\"YYCache\"",
+					"-l\"icucore\"",
+					"-l\"lept\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"tesseract_all\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -901,6 +1031,54 @@
 				INFOPLIST_FILE = OCR_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR_Demo/pod/DYDSDK",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak_library",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"AFNetworking\"",
+					"-l\"AVOSCloud\"",
+					"-l\"AVOSCloudIM\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"Shimmer\"",
+					"-l\"TesseractOCRiOS\"",
+					"-l\"WSProgressHUD\"",
+					"-l\"YYCache\"",
+					"-l\"icucore\"",
+					"-l\"lept\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"tesseract_all\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

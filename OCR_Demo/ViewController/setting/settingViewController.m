@@ -14,6 +14,7 @@
 //#import "infoViewController.h"
 #import "sendMessageViewController.h"
 #import <StoreKit/StoreKit.h>//评分库
+#import "SeeAdViewController.h"
 
 //#import "IAPShare.h"
 @interface settingViewController ()<UITableViewDelegate,UITableViewDataSource,SKStoreProductViewControllerDelegate,SKPaymentTransactionObserver,SKProductsRequestDelegate,numTableViewCellBtnClickedDelegate>{
@@ -426,10 +427,12 @@
     }
 }
 
-#pragma mark - buyViewBtnClick
+#pragma mark - 去购买，观看广告
+
+
 -(void)seeTheVideoMethod{
-    
-    
+    SeeAdViewController *vc = [[SeeAdViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(void)goToBuyBtnClicked{//去购买
