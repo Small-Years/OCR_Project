@@ -36,8 +36,6 @@
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic,strong) UIButton * centerBtn;
 
-//@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
-
 @property(nonatomic,assign)BOOL isSub;//判断当前扫描出来的结果是否已经减去了次数
 @end
 
@@ -125,17 +123,6 @@
     [lightBtn setImage:[UIImage imageNamed:@"light_btn"] forState:UIControlStateNormal];
     [lightBtn setImage:[UIImage imageNamed:@"light_btn_select"] forState:UIControlStateSelected];
     [self.view addSubview:lightBtn];
-    
-//    self.activityIndicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:(UIActivityIndicatorViewStyleWhiteLarge)];
-//    [self.view addSubview:self.activityIndicator];
-//    self.activityIndicator.frame= CGRectMake(0, SCREEN_HEIGHT*0.5+100, 100, 100);
-//    self.activityIndicator.centerX = self.view.centerX;
-//    self.activityIndicator.color = [UIColor whiteColor];//设置小菊花颜色
-//    //设置背景颜色
-//    self.activityIndicator.backgroundColor = [UIColor clearColor];
-//    //刚进入这个界面会显示控件。并且停止旋转也会显示，只是没有在转动而已。
-//    self.activityIndicator.hidesWhenStopped = NO;
-//    [self.activityIndicator startAnimating];
 }
 
 

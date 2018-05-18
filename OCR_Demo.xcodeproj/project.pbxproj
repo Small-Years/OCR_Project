@@ -26,6 +26,7 @@
 		C755D59820634EBD0010B5F8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D59720634EBD0010B5F8 /* MobileCoreServices.framework */; };
 		C755D59A20634ECB0010B5F8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D59920634ECB0010B5F8 /* CoreTelephony.framework */; };
 		C755D59C20634ED60010B5F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D59B20634ED50010B5F8 /* CoreLocation.framework */; };
+		C7669A5020AD07A100BF9FD0 /* HasNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7669A4E20AD07A100BF9FD0 /* HasNetworkTool.m */; };
 		C77D8BD9206100BD00C42D22 /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D8BD7206100BD00C42D22 /* UITableView+EmptyData.m */; };
 		C7873D5C2061F25D008EBA2D /* PhoneNumerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7873D5B2061F25D008EBA2D /* PhoneNumerTableViewCell.m */; };
 		C7873D822061FD87008EBA2D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7873D602061FD87008EBA2D /* MASCompositeConstraint.m */; };
@@ -129,6 +130,8 @@
 		C755D59720634EBD0010B5F8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C755D59920634ECB0010B5F8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		C755D59B20634ED50010B5F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C7669A4E20AD07A100BF9FD0 /* HasNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasNetworkTool.m; sourceTree = "<group>"; };
+		C7669A4F20AD07A100BF9FD0 /* HasNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasNetworkTool.h; sourceTree = "<group>"; };
 		C77D8BD7206100BD00C42D22 /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
 		C77D8BD8206100BD00C42D22 /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
 		C7873D5A2061F25D008EBA2D /* PhoneNumerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumerTableViewCell.h; sourceTree = "<group>"; };
@@ -435,6 +438,8 @@
 		C79BDE2F205A5657006F497A /* pod */ = {
 			isa = PBXGroup;
 			children = (
+				C7669A4F20AD07A100BF9FD0 /* HasNetworkTool.h */,
+				C7669A4E20AD07A100BF9FD0 /* HasNetworkTool.m */,
 				C7873D9920625FDE008EBA2D /* NSAttributedString_Encapsulation.h */,
 				C7873D9A20625FDE008EBA2D /* NSAttributedString_Encapsulation.m */,
 				C7873D5D2061FD87008EBA2D /* Masonry */,
@@ -545,7 +550,7 @@
 				TargetAttributes = {
 					C74FE9092050D84800BFCF0D = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					C74FE9212050D84800BFCF0D = {
 						CreatedOnToolsVersion = 9.2;
@@ -681,6 +686,7 @@
 				C7873D842061FD87008EBA2D /* MASConstraintMaker+Forbearance.m in Sources */,
 				C7873D8A2061FD87008EBA2D /* NSArray+MASAdditions.m in Sources */,
 				C7873D862061FD87008EBA2D /* MASForbearance.m in Sources */,
+				C7669A5020AD07A100BF9FD0 /* HasNetworkTool.m in Sources */,
 				C7873D9820624B90008EBA2D /* ShowTimesTableViewCell.m in Sources */,
 				C7873D5C2061F25D008EBA2D /* PhoneNumerTableViewCell.m in Sources */,
 				C79BDE50205A5EFE006F497A /* ScanView.m in Sources */,
@@ -860,9 +866,9 @@
 			baseConfigurationReference = 8610EC44AB391705E41DBF37 /* Pods-OCR_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3CA4P2F6Z;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -876,8 +882,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "42ea9e9d-2099-4f77-8058-9178a35396d1";
-				PROVISIONING_PROFILE_SPECIFIER = phoneNumberPro;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -887,9 +893,9 @@
 			baseConfigurationReference = CAA5DD802A770B096C110108 /* Pods-OCR_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q3CA4P2F6Z;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -903,8 +909,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "42ea9e9d-2099-4f77-8058-9178a35396d1";
-				PROVISIONING_PROFILE_SPECIFIER = phoneNumberPro;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

@@ -26,6 +26,7 @@
 #import "UITableView+EmptyData.h"
 #import "NSAttributedString_Encapsulation.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import "HasNetworkTool.h"
 
 #endif /* PrefixHeader_pch */
 

@@ -560,6 +560,11 @@
         infoLable_2.textColor = [UIColor greenColor];
         [USER_DEFAULT setObject:@"baidu" forKey:viewLogo];
     }
+    [HasNetworkTool hasNetwork:^(bool has) {
+        if (!has) {
+            [AllMethod showAltMsg:@"该模式下需要使用网络，请本程序使用网络权限" WithController:self WithAction:nil];
+        }
+    }];
 }
 
 -(void)cancleBtnClicked{
