@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		066555FC4FE0D5D31A865995 /* libPods-OCR_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ECAA40AC1B407B756E2FFD /* libPods-OCR_Demo.a */; };
 		C7159D4420A2F94D00B32B01 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7159D4320A2F94D00B32B01 /* CameraViewController.m */; };
+		C730C91E20B2BB44006DD1D4 /* mainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C730C91D20B2BB44006DD1D4 /* mainTabBarViewController.m */; };
 		C73932492063411A00318637 /* sendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73932472063411A00318637 /* sendMessageViewController.m */; };
 		C74FE90F2050D84800BFCF0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74FE90E2050D84800BFCF0D /* AppDelegate.m */; };
 		C74FE9152050D84800BFCF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74FE9132050D84800BFCF0D /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 		C755D59A20634ECB0010B5F8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D59920634ECB0010B5F8 /* CoreTelephony.framework */; };
 		C755D59C20634ED60010B5F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D59B20634ED50010B5F8 /* CoreLocation.framework */; };
 		C7669A5020AD07A100BF9FD0 /* HasNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7669A4E20AD07A100BF9FD0 /* HasNetworkTool.m */; };
+		C768582220BD4BDE00A59617 /* ShowBackResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C768582120BD4BDE00A59617 /* ShowBackResultView.m */; };
+		C768582420BD4BF900A59617 /* ShowBackResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C768582320BD4BF900A59617 /* ShowBackResultView.xib */; };
 		C77D8BD9206100BD00C42D22 /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = C77D8BD7206100BD00C42D22 /* UITableView+EmptyData.m */; };
 		C7873D5C2061F25D008EBA2D /* PhoneNumerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7873D5B2061F25D008EBA2D /* PhoneNumerTableViewCell.m */; };
 		C7873D822061FD87008EBA2D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7873D602061FD87008EBA2D /* MASCompositeConstraint.m */; };
@@ -66,6 +69,13 @@
 		C79BDE4C205A58C5006F497A /* AllMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C79BDE4B205A58C5006F497A /* AllMethod.m */; };
 		C79BDE50205A5EFE006F497A /* ScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = C79BDE4F205A5EFE006F497A /* ScanView.m */; };
 		C7A8218B20AAD848005D00D6 /* didi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C7A8218A20AAD848005D00D6 /* didi.mp3 */; };
+		C7B2794020B54E1E00FCA9EB /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2793F20B54E1D00FCA9EB /* VideoViewController.m */; };
+		C7B2794320B54E4A00FCA9EB /* DetectorManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7B2794120B54E4900FCA9EB /* DetectorManager.mm */; };
+		C7B2794620B55F1900FCA9EB /* cardScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B2794520B55F1900FCA9EB /* cardScanView.m */; };
+		C7B8C30A20BB93BD000E9CC7 /* IDCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8C30920BB93BD000E9CC7 /* IDCardViewController.m */; };
+		C7B8C47120BBFFA5000E9CC7 /* ShowResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B8C47020BBFFA5000E9CC7 /* ShowResultView.m */; };
+		C7B8C47320BC060C000E9CC7 /* ShowResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B8C47220BC060C000E9CC7 /* ShowResultView.xib */; };
+		C7FDF34E20B7B44400139AC2 /* resultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDF34D20B7B44400139AC2 /* resultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +115,8 @@
 		8610EC44AB391705E41DBF37 /* Pods-OCR_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCR_Demo/Pods-OCR_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C7159D4220A2F94D00B32B01 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		C7159D4320A2F94D00B32B01 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		C730C91C20B2BB44006DD1D4 /* mainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mainTabBarViewController.h; path = OCR_Demo/ViewController/mainTabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		C730C91D20B2BB44006DD1D4 /* mainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = mainTabBarViewController.m; path = OCR_Demo/ViewController/mainTabBarViewController.m; sourceTree = SOURCE_ROOT; };
 		C73932472063411A00318637 /* sendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sendMessageViewController.m; sourceTree = "<group>"; };
 		C73932482063411A00318637 /* sendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sendMessageViewController.h; sourceTree = "<group>"; };
 		C74FE90A2050D84800BFCF0D /* OCR_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +144,9 @@
 		C755D59B20634ED50010B5F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C7669A4E20AD07A100BF9FD0 /* HasNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasNetworkTool.m; sourceTree = "<group>"; };
 		C7669A4F20AD07A100BF9FD0 /* HasNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasNetworkTool.h; sourceTree = "<group>"; };
+		C768582020BD4BDE00A59617 /* ShowBackResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowBackResultView.h; sourceTree = "<group>"; };
+		C768582120BD4BDE00A59617 /* ShowBackResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowBackResultView.m; sourceTree = "<group>"; };
+		C768582320BD4BF900A59617 /* ShowBackResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowBackResultView.xib; sourceTree = "<group>"; };
 		C77D8BD7206100BD00C42D22 /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
 		C77D8BD8206100BD00C42D22 /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
 		C7873D5A2061F25D008EBA2D /* PhoneNumerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumerTableViewCell.h; sourceTree = "<group>"; };
@@ -206,6 +221,19 @@
 		C79BDE4F205A5EFE006F497A /* ScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanView.m; sourceTree = "<group>"; };
 		C7A5ADE12051205F002ECA49 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C7A8218A20AAD848005D00D6 /* didi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = didi.mp3; sourceTree = "<group>"; };
+		C7B2793E20B54E1D00FCA9EB /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		C7B2793F20B54E1D00FCA9EB /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		C7B2794120B54E4900FCA9EB /* DetectorManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DetectorManager.mm; sourceTree = "<group>"; };
+		C7B2794220B54E4A00FCA9EB /* DetectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectorManager.h; sourceTree = "<group>"; };
+		C7B2794420B55F1800FCA9EB /* cardScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cardScanView.h; sourceTree = "<group>"; };
+		C7B2794520B55F1900FCA9EB /* cardScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cardScanView.m; sourceTree = "<group>"; };
+		C7B8C30820BB93BD000E9CC7 /* IDCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDCardViewController.h; sourceTree = "<group>"; };
+		C7B8C30920BB93BD000E9CC7 /* IDCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardViewController.m; sourceTree = "<group>"; };
+		C7B8C46F20BBFFA5000E9CC7 /* ShowResultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowResultView.h; sourceTree = "<group>"; };
+		C7B8C47020BBFFA5000E9CC7 /* ShowResultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowResultView.m; sourceTree = "<group>"; };
+		C7B8C47220BC060C000E9CC7 /* ShowResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowResultView.xib; sourceTree = "<group>"; };
+		C7FDF34C20B7B44400139AC2 /* resultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resultViewController.h; sourceTree = "<group>"; };
+		C7FDF34D20B7B44400139AC2 /* resultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resultViewController.m; sourceTree = "<group>"; };
 		CAA5DD802A770B096C110108 /* Pods-OCR_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCR_Demo/Pods-OCR_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		D7ECAA40AC1B407B756E2FFD /* libPods-OCR_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCR_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -261,6 +289,19 @@
 				D7ECAA40AC1B407B756E2FFD /* libPods-OCR_Demo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C730C91F20B2CEE8006DD1D4 /* 手机号 */ = {
+			isa = PBXGroup;
+			children = (
+				C7159D4220A2F94D00B32B01 /* CameraViewController.h */,
+				C7159D4320A2F94D00B32B01 /* CameraViewController.m */,
+				C79BDE23205A0A8A006F497A /* newViewController.h */,
+				C79BDE24205A0A8A006F497A /* newViewController.m */,
+				C796B97B205F4F7700125FEE /* BaiduOcrViewController.h */,
+				C796B97C205F4F7700125FEE /* BaiduOcrViewController.m */,
+			);
+			path = "手机号";
 			sourceTree = "<group>";
 		};
 		C739324A2063411F00318637 /* setting */ = {
@@ -344,6 +385,8 @@
 				C74FE9162050D84800BFCF0D /* Assets.xcassets */,
 				C74FE9182050D84800BFCF0D /* LaunchScreen.storyboard */,
 				C74FE91C2050D84800BFCF0D /* main.m */,
+				C730C91C20B2BB44006DD1D4 /* mainTabBarViewController.h */,
+				C730C91D20B2BB44006DD1D4 /* mainTabBarViewController.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -412,12 +455,9 @@
 		C796B96F205F4DA200125FEE /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C7159D4220A2F94D00B32B01 /* CameraViewController.h */,
-				C7159D4320A2F94D00B32B01 /* CameraViewController.m */,
-				C79BDE23205A0A8A006F497A /* newViewController.h */,
-				C79BDE24205A0A8A006F497A /* newViewController.m */,
-				C796B97B205F4F7700125FEE /* BaiduOcrViewController.h */,
-				C796B97C205F4F7700125FEE /* BaiduOcrViewController.m */,
+				C7B8C30720BB93A7000E9CC7 /* 身份证 */,
+				C7B278FF20B4FC5200FCA9EB /* 银行卡 */,
+				C730C91F20B2CEE8006DD1D4 /* 手机号 */,
 				C739324A2063411F00318637 /* setting */,
 			);
 			path = ViewController;
@@ -468,6 +508,36 @@
 				C79BDE45205A58BA006F497A /* UIImage+SubImage.m */,
 			);
 			path = "UIImage分类";
+			sourceTree = "<group>";
+		};
+		C7B278FF20B4FC5200FCA9EB /* 银行卡 */ = {
+			isa = PBXGroup;
+			children = (
+				C7B2793E20B54E1D00FCA9EB /* VideoViewController.h */,
+				C7B2793F20B54E1D00FCA9EB /* VideoViewController.m */,
+				C7B2794220B54E4A00FCA9EB /* DetectorManager.h */,
+				C7B2794120B54E4900FCA9EB /* DetectorManager.mm */,
+				C7B2794420B55F1800FCA9EB /* cardScanView.h */,
+				C7B2794520B55F1900FCA9EB /* cardScanView.m */,
+				C7FDF34C20B7B44400139AC2 /* resultViewController.h */,
+				C7FDF34D20B7B44400139AC2 /* resultViewController.m */,
+			);
+			path = "银行卡";
+			sourceTree = "<group>";
+		};
+		C7B8C30720BB93A7000E9CC7 /* 身份证 */ = {
+			isa = PBXGroup;
+			children = (
+				C7B8C30820BB93BD000E9CC7 /* IDCardViewController.h */,
+				C7B8C30920BB93BD000E9CC7 /* IDCardViewController.m */,
+				C7B8C46F20BBFFA5000E9CC7 /* ShowResultView.h */,
+				C7B8C47020BBFFA5000E9CC7 /* ShowResultView.m */,
+				C7B8C47220BC060C000E9CC7 /* ShowResultView.xib */,
+				C768582020BD4BDE00A59617 /* ShowBackResultView.h */,
+				C768582120BD4BDE00A59617 /* ShowBackResultView.m */,
+				C768582320BD4BF900A59617 /* ShowBackResultView.xib */,
+			);
+			path = "身份证";
 			sourceTree = "<group>";
 		};
 		D7AFCAF31EFE8DC90F88F092 /* Pods */ = {
@@ -550,7 +620,7 @@
 				TargetAttributes = {
 					C74FE9092050D84800BFCF0D = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C74FE9212050D84800BFCF0D = {
 						CreatedOnToolsVersion = 9.2;
@@ -595,7 +665,9 @@
 				C74FE94F2050E7A500BFCF0D /* tessdata in Resources */,
 				C74FE9172050D84800BFCF0D /* Assets.xcassets in Resources */,
 				C7873D912061FD87008EBA2D /* readMe.rtf in Resources */,
+				C7B8C47320BC060C000E9CC7 /* ShowResultView.xib in Resources */,
 				C74FE9152050D84800BFCF0D /* Main.storyboard in Resources */,
+				C768582420BD4BF900A59617 /* ShowBackResultView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,21 +742,29 @@
 			files = (
 				C79BDE47205A58BA006F497A /* UIImage+Gif.m in Sources */,
 				C7873D852061FD87008EBA2D /* MASConstraintMaker.m in Sources */,
+				C7B8C47120BBFFA5000E9CC7 /* ShowResultView.m in Sources */,
 				C796B986205F60E600125FEE /* settingViewController.m in Sources */,
 				C7873D832061FD87008EBA2D /* MASConstraint.m in Sources */,
 				C79BDE2E205A53FF006F497A /* NSString+StringTool.m in Sources */,
 				C7873D882061FD87008EBA2D /* MASViewAttribute.m in Sources */,
 				C74FE91D2050D84800BFCF0D /* main.m in Sources */,
+				C7FDF34E20B7B44400139AC2 /* resultViewController.m in Sources */,
 				C74FE90F2050D84800BFCF0D /* AppDelegate.m in Sources */,
+				C7B2794620B55F1900FCA9EB /* cardScanView.m in Sources */,
 				C79BDE49205A58BA006F497A /* UIImage+SubImage.m in Sources */,
 				C796B985205F60E600125FEE /* showBuyView.m in Sources */,
 				C7873D9B20625FDE008EBA2D /* NSAttributedString_Encapsulation.m in Sources */,
 				C79BDE25205A0A8A006F497A /* newViewController.m in Sources */,
 				C7873D8E2061FD87008EBA2D /* UIView+Forbearance.m in Sources */,
+				C7B2794320B54E4A00FCA9EB /* DetectorManager.mm in Sources */,
+				C7B8C30A20BB93BD000E9CC7 /* IDCardViewController.m in Sources */,
 				C7873D8C2061FD87008EBA2D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C7873D8F2061FD87008EBA2D /* View+MASAdditions.m in Sources */,
 				C7873D842061FD87008EBA2D /* MASConstraintMaker+Forbearance.m in Sources */,
+				C768582220BD4BDE00A59617 /* ShowBackResultView.m in Sources */,
 				C7873D8A2061FD87008EBA2D /* NSArray+MASAdditions.m in Sources */,
+				C730C91E20B2BB44006DD1D4 /* mainTabBarViewController.m in Sources */,
+				C7B2794020B54E1E00FCA9EB /* VideoViewController.m in Sources */,
 				C7873D862061FD87008EBA2D /* MASForbearance.m in Sources */,
 				C7669A5020AD07A100BF9FD0 /* HasNetworkTool.m in Sources */,
 				C7873D9820624B90008EBA2D /* ShowTimesTableViewCell.m in Sources */,
@@ -866,11 +946,12 @@
 			baseConfigurationReference = 8610EC44AB391705E41DBF37 /* Pods-OCR_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3CA4P2F6Z;
 				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -880,10 +961,18 @@
 				INFOPLIST_FILE = OCR_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡识别/bank_card/exbankcardcore",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/libexidcard",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/bank_io",
+					"$(PROJECT_DIR)/OCR_Demo/pod/SSIDCard/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "42ea9e9d-2099-4f77-8058-9178a35396d1";
+				PROVISIONING_PROFILE_SPECIFIER = phoneNumberPro;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -893,9 +982,9 @@
 			baseConfigurationReference = CAA5DD802A770B096C110108 /* Pods-OCR_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Q3CA4P2F6Z;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -907,10 +996,18 @@
 				INFOPLIST_FILE = OCR_Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡识别/bank_card/exbankcardcore",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/libexidcard",
+					"$(PROJECT_DIR)/OCR_Demo/ViewController/银行卡/bank_io",
+					"$(PROJECT_DIR)/OCR_Demo/pod/SSIDCard/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangjian.ocrphonenum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "42ea9e9d-2099-4f77-8058-9178a35396d1";
+				PROVISIONING_PROFILE_SPECIFIER = phoneNumberPro;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

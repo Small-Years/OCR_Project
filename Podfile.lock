@@ -1,24 +1,18 @@
 PODS:
-  - AFNetworking (2.6.3):
-    - AFNetworking/NSURLConnection (= 2.6.3)
-    - AFNetworking/NSURLSession (= 2.6.3)
-    - AFNetworking/Reachability (= 2.6.3)
-    - AFNetworking/Security (= 2.6.3)
-    - AFNetworking/Serialization (= 2.6.3)
-    - AFNetworking/UIKit (= 2.6.3)
-  - AFNetworking/NSURLConnection (2.6.3):
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.3):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.3)
-  - AFNetworking/Security (2.6.3)
-  - AFNetworking/Serialization (2.6.3)
-  - AFNetworking/UIKit (2.6.3):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - AVOSCloud (8.0.6)
   - AVOSCloudIM (8.0.6):
@@ -30,7 +24,7 @@ PODS:
     - AVOSCloudIM/_NOARC (= 8.0.6)
   - AVOSCloudIM/_NOARC (8.0.6):
     - AVOSCloud (= 8.0.6)
-  - IQKeyboardManager (5.0.7)
+  - OpenCV (3.0.0)
   - Shimmer (1.0.2)
   - TesseractOCRiOS (4.0.0)
   - WSProgressHUD (1.1.3):
@@ -41,21 +35,21 @@ DEPENDENCIES:
   - AFNetworking
   - AVOSCloud
   - AVOSCloudIM
-  - IQKeyboardManager
+  - OpenCV (~> 3.0.0)
   - TesseractOCRiOS
   - WSProgressHUD
   - YYCache
 
 SPEC CHECKSUMS:
-  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   AVOSCloud: 3fc5837eb4019f75eecd3064ed79d92656cbe2b5
   AVOSCloudIM: b2d2e57025c2d78030e562cd78325e362615b251
-  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  OpenCV: be07c02f0d8f125f1d40d261e66a66cb66ece3b3
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
   WSProgressHUD: a0902809c8af112fb34b004fdc75c16eb85167a3
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: d77aa18275101a24838d9035aabcd12507fc2f4c
+PODFILE CHECKSUM: 8b6a21fc96756efe7df139cd5f95c92cc1e8f0c6
 
 COCOAPODS: 1.2.1

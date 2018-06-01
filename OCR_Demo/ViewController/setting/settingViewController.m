@@ -74,10 +74,10 @@
     headView.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:headView];
     //返回
-    UIButton *backBtn = [[UIButton alloc]initWithFrame:CGRectMake(0,0, headView_Height, headView_Height)];
-    [backBtn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];
-    [backBtn addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
-    [headView addSubview:backBtn];
+//    UIButton *backBtn = [[UIButton alloc]initWithFrame:CGRectMake(0,0, headView_Height, headView_Height)];
+//    [backBtn setImage:[UIImage imageNamed:@"backBtn"] forState:UIControlStateNormal];
+//    [backBtn addTarget:self action:@selector(backBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+//    [headView addSubview:backBtn];
     //图标
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake((headView.bounds.size.width - headView_Height)*0.5, 0, headView_Height, headView_Height)];
     imageView.image = [UIImage imageNamed:@"setting"];
@@ -559,12 +559,18 @@
         titleLable_2.textColor = [UIColor greenColor];
         infoLable_2.textColor = [UIColor greenColor];
         [USER_DEFAULT setObject:@"baidu" forKey:viewLogo];
+        
+        [HasNetworkTool hasNetwork:^(bool has) {
+            if (!has) {
+                NSLog(@"没网");
+                [AllMethod showAltMsg:@"该模式下需要使用网络，请本程序使用网络权限" WithController:self WithAction:nil];
+            }else{
+                NSLog(@"有网连接");
+            }
+        }];
+        
     }
-    [HasNetworkTool hasNetwork:^(bool has) {
-        if (!has) {
-            [AllMethod showAltMsg:@"该模式下需要使用网络，请本程序使用网络权限" WithController:self WithAction:nil];
-        }
-    }];
+    
 }
 
 -(void)cancleBtnClicked{
